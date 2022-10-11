@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Movie({title, year, summary, poster, genres}) {
     return (
-    <div className="movie">
+    <div className="영화">
         <Link
             to={{
                 pathname: '/movie-detail',
